@@ -1,54 +1,49 @@
 import SwiftUI
 
 /// Flux Design System — Color tokens
+///
+/// All colors read from `FluxThemeManager.shared.currentTheme` so they
+/// automatically update when the theme changes. For rebranding, create
+/// a new `FluxThemeProtocol` conforming struct and call
+/// `FluxThemeManager.shared.setTheme(YourBrandTheme())`.
 public enum FluxColors {
 
     // MARK: - Brand
 
-    /// Primary brand color (Blue)
-    public static let primary = Color(hex: 0x007AFF)
-
-    /// Secondary brand color (Navy)
-    public static let secondary = Color(hex: 0x1C2541)
-
-    /// Accent color (Teal)
-    public static let accent = Color(hex: 0x5BC0BE)
+    public static var primary: Color { FluxThemeManager.shared.currentTheme.primary }
+    public static var secondary: Color { FluxThemeManager.shared.currentTheme.secondary }
+    public static var accent: Color { FluxThemeManager.shared.currentTheme.accent }
 
     // MARK: - Surfaces
 
-    #if canImport(UIKit)
-    public static let background = Color(.systemBackground)
-    public static let surface = Color(.secondarySystemBackground)
-    #else
-    public static let background = Color(nsColor: .windowBackgroundColor)
-    public static let surface = Color(nsColor: .controlBackgroundColor)
-    #endif
+    public static var background: Color { FluxThemeManager.shared.currentTheme.background }
+    public static var surface: Color { FluxThemeManager.shared.currentTheme.surface }
 
     // MARK: - Text
 
-    #if canImport(UIKit)
-    public static let textPrimary = Color(.label)
-    public static let textSecondary = Color(.secondaryLabel)
-    #else
-    public static let textPrimary = Color(nsColor: .labelColor)
-    public static let textSecondary = Color(nsColor: .secondaryLabelColor)
-    #endif
+    public static var textPrimary: Color { FluxThemeManager.shared.currentTheme.textPrimary }
+    public static var textSecondary: Color { FluxThemeManager.shared.currentTheme.textSecondary }
 
     // MARK: - Semantic
 
-    public static let success = Color(hex: 0x34C759)
-    public static let warning = Color(hex: 0xFF9500)
-    public static let error = Color(hex: 0xFF3B30)
+    public static var success: Color { FluxThemeManager.shared.currentTheme.success }
+    public static var warning: Color { FluxThemeManager.shared.currentTheme.warning }
+    public static var error: Color { FluxThemeManager.shared.currentTheme.error }
 
     // MARK: - Borders
 
-    #if canImport(UIKit)
-    public static let border = Color(.separator)
-    public static let divider = Color(.opaqueSeparator)
-    #else
-    public static let border = Color(nsColor: .separatorColor)
-    public static let divider = Color(nsColor: .gridColor)
-    #endif
+    public static var border: Color { FluxThemeManager.shared.currentTheme.border }
+    public static var divider: Color { FluxThemeManager.shared.currentTheme.divider }
+
+    // MARK: - On-colors (foreground on filled backgrounds)
+
+    public static var onPrimary: Color { FluxThemeManager.shared.currentTheme.onPrimary }
+    public static var onSecondary: Color { FluxThemeManager.shared.currentTheme.onSecondary }
+    public static var onError: Color { FluxThemeManager.shared.currentTheme.onError }
+
+    // MARK: - Overlay
+
+    public static var overlay: Color { FluxThemeManager.shared.currentTheme.overlay }
 }
 
 // MARK: - Hex Initializer

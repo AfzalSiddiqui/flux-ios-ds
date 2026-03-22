@@ -27,7 +27,15 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxBorder.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxColors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxOpacity.swift"
         },
         {
           "kind" : "file",
@@ -36,6 +44,10 @@
         {
           "kind" : "file",
           "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxShadow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxShimmerEffect.swift"
         },
         {
           "kind" : "file",
@@ -59,9 +71,12 @@
       "moduleOutputPath" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/.build/arm64-apple-macosx/debug/FluxTokensKit.swiftmodule",
       "objects" : [
         "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/.build/arm64-apple-macosx/debug/FluxTokensKit.build/FluxTokensKit.swift.o",
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/.build/arm64-apple-macosx/debug/FluxTokensKit.build/Tokens/FluxBorder.swift.o",
         "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/.build/arm64-apple-macosx/debug/FluxTokensKit.build/Tokens/FluxColors.swift.o",
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/.build/arm64-apple-macosx/debug/FluxTokensKit.build/Tokens/FluxOpacity.swift.o",
         "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/.build/arm64-apple-macosx/debug/FluxTokensKit.build/Tokens/FluxRadius.swift.o",
         "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/.build/arm64-apple-macosx/debug/FluxTokensKit.build/Tokens/FluxShadow.swift.o",
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/.build/arm64-apple-macosx/debug/FluxTokensKit.build/Tokens/FluxShimmerEffect.swift.o",
         "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/.build/arm64-apple-macosx/debug/FluxTokensKit.build/Tokens/FluxSpacing.swift.o",
         "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/.build/arm64-apple-macosx/debug/FluxTokensKit.build/Tokens/FluxTheme.swift.o",
         "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/.build/arm64-apple-macosx/debug/FluxTokensKit.build/Tokens/FluxThemeManager.swift.o",
@@ -104,7 +119,15 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/.build/arm64-apple-macosx/debug/FluxTokensKit.build/Tokens/FluxBorder.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/.build/arm64-apple-macosx/debug/FluxTokensKit.build/Tokens/FluxColors.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/.build/arm64-apple-macosx/debug/FluxTokensKit.build/Tokens/FluxOpacity.swift.o"
         },
         {
           "kind" : "file",
@@ -113,6 +136,10 @@
         {
           "kind" : "file",
           "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/.build/arm64-apple-macosx/debug/FluxTokensKit.build/Tokens/FluxShadow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/.build/arm64-apple-macosx/debug/FluxTokensKit.build/Tokens/FluxShimmerEffect.swift.o"
         },
         {
           "kind" : "file",
@@ -137,9 +164,12 @@
       ],
       "sources" : [
         "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/FluxTokensKit.swift",
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxBorder.swift",
         "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxColors.swift",
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxOpacity.swift",
         "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxRadius.swift",
         "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxShadow.swift",
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxShimmerEffect.swift",
         "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxSpacing.swift",
         "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxTheme.swift",
         "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxThemeManager.swift",
@@ -160,9 +190,12 @@
       "-incremental",
       "-c",
       "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/FluxTokensKit.swift",
+      "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxBorder.swift",
       "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxColors.swift",
+      "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxOpacity.swift",
       "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxRadius.swift",
       "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxShadow.swift",
+      "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxShimmerEffect.swift",
       "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxSpacing.swift",
       "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxTheme.swift",
       "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxTokensKit/Sources/FluxTokensKit/Tokens/FluxThemeManager.swift",
