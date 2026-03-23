@@ -3,20 +3,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "FluxTokensKit",
+    name: "flux-ios-ds",
     platforms: [
         .iOS(.v16),
         .macOS(.v13)
     ],
     products: [
         .library(
-            name: "FluxTokensKit",
-            targets: ["FluxTokensKit"]
+            name: "flux-ios-ds",
+            targets: ["flux-ios-ds"]
         )
     ],
     targets: [
         .target(
-            name: "FluxTokensKit"
+            name: "flux-ios-ds",
+            path: "Sources/flux-ios-ds"
         )
     ]
 )

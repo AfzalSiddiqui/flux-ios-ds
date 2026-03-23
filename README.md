@@ -1,5 +1,5 @@
-# FluxTokensKit
-Build your app’s design foundation once, and reuse everywhere.
+# flux-ios-ds
+Build your app's design foundation once, and reuse everywhere.
 
 Key Features:
 
